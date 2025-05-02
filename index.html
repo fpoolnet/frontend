@@ -93,16 +93,14 @@
             </p>    
         </section>
 
-        <section id="ccminer-instructions" class="content-section">
-            <h2>ccminer Configuration</h2>
+        <section id="mining-instructions" class="content-section">
+            <h2>Mining Configuration</h2>
             
-            <p>ccminer is a compatible mining client for use with our Stratum pool.</p>
+            <p><strong>Username Format:</strong> <code>YourWalletAddress.WorkerName</code></p>
+            <p>This format is required for tracking your earnings.</p>
             
-            <p><strong>Example Command:</strong></p>
-            <pre><code>ccminer -a scrypt -o stratum+tcp://pool.example.com:1212 -u YourWalletAddress.WorkerName -p x</code></pre>
-            
-            <p><strong>Username Format:</strong> Use <code>YourWalletAddress.WorkerName</code> as your username. This ensures proper tracking of your earnings.</p>
-            
+            <p><strong>Example (ccminer):</strong></p>
+            <pre style="white-space: pre-wrap; word-wrap: break-word;"><code>ccminer -a scrypt -o stratum+tcp://pool.example.com:1212 -u YourWalletAddress.WorkerName -p x</code></pre>
         </section>
 
         <section id="payment-instructions" class="content-section">
